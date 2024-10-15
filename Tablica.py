@@ -15,8 +15,8 @@ class Tablica:
         mini = self.tab[0]
         for i in self.tab:
             if i < mini:
-                min = i
-        return min
+                mini = i
+        return mini
 
     def maksimum(self):
         maks = self.tab[0]

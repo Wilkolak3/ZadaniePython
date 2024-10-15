@@ -1,11 +1,11 @@
 from Tablica import Tablica
 
-tab = Tablica(10)
+tab = Tablica(3)
 tab.wypelnij(1, 10)
 print("Tablica: ", tab)
 
 mini = tab.minimum()
-print("Minimum: ", min)
+print("Minimum: ", mini)
 
 maks = tab.maksimum()
 print("Maksimum: ", maks)
