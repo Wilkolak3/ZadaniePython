@@ -5,7 +5,7 @@ tab.wypelnij(1, 10)
 print("Tablica: ", tab)
 
 mini = tab.minimum()
-print("Minimum: ", min)
+print("Minimum: ", mini)
 
 maks = tab.maksimum()
 print("Maksimum: ", maks)
